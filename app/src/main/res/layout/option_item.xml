@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/optionBox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/option_box_bg"
+    android:paddingHorizontal="@dimen/_10sdp"
+    android:paddingVertical="@dimen/_12sdp">
+
+    <TextView
+        android:id="@+id/option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/opensans_medium"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13ssp"
+        tools:text="optionOne" />
+
+    <ImageView
+        android:id="@+id/img_check_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        tools:src="@drawable/uncheck_icon" />
+
+</RelativeLayout>
